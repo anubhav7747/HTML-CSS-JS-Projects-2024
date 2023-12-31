@@ -1,0 +1,71 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 150px;
+    background-color: #f1f1f1;
+}
+
+.container {
+    font-size: 20px;
+    background-color: #fff;
+    /* border: 5px solid orange; */
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.container > h1 {
+    font-family: monospace, sans-serif;
+    font-size: 44px;
+    /* padding-top: 15px; */
+    text-align: center;
+}
+
+.container > p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#billAmount, #tipPercentage, #calculate {  
+    width: 100%;
+    max-width: 575px;
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+#billAmount, #tipPercentage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #bfbfbf;
+}
+
+#calculate {
+    background-color: #008000;
+    color: #fff;
+    border: 1px solid #008000;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color .3s ease;
+}
+
+#calculate:hover {
+    background-color: #116115;
+}
+
+#form > p {
+    margin-top: 10px;
+}
+
+#result {
+    font-weight: bold;
+}
