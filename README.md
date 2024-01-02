@@ -3,3 +3,4 @@
 1. Age Calculator
 2. Tip Calculator
 3. Recipe Book App
+4. Dice Roll Simulator
