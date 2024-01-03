@@ -1,0 +1,52 @@
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+    /* font-weight: 100; */
+    margin-top: 1.5em;
+}
+
+.timer {
+    text-align: center;
+    margin-top: 1.25em;
+    font-size: 72px;
+    font-family: sans-serif;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#start, #stop, #reset {
+    color: #f3f3f3;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    margin: 3em 0.75rem;
+    border-radius: 7px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#start:hover, #stop:hover, #reset:hover {
+    opacity: .8;
+}
+
+#start {
+    background-color: green;
+}
+
+#stop {
+    background-color: red;
+}
+
+#reset {
+    background-color: orange;
+}
