@@ -4,3 +4,5 @@
 2. Tip Calculator
 3. Recipe Book App
 4. Dice Roll Simulator
+5. Pomodoro Time
+6. Rock Paper Scissors Game
