@@ -6,3 +6,5 @@
 4. Dice Roll Simulator
 5. Pomodoro Time
 6. Rock Paper Scissors Game
+7. Stopwatch ⏱ 
+8. Weather App
