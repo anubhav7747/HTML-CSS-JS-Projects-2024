@@ -9,3 +9,4 @@
 7. Stopwatch ⏱ 
 8. Weather App
 9. Image Search App
+10. Basic Calculator
