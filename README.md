@@ -12,3 +12,4 @@
 10. Basic Calculator
 11. Dad Jokes Generator
 12. Photo Gallery
+13. English Dictionary
