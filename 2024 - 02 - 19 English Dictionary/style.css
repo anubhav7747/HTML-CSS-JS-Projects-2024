@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgb(221, 155, 32);
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    font-family: monospace;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+input {
+    margin-top: 2rem;
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(221, 155, 32);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px 30px;
+    font-family: serif;
+    font-size: 25px;
+}
+
+.instruction {
+    margin-top: 1rem;
+    font-size: 1.75em;
+    font-style: italic;
+}
+
+#searchResult {
+    display: none;
+    margin-top: 1rem;
+    font-size: 1.75em;
+    font-style: italic;
+}
+
+#searchResult > #meaning, #searchResult > #audio {
+    margin-top: 1rem;
+}
