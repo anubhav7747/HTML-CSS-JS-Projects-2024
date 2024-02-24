@@ -13,3 +13,5 @@
 11. Dad Jokes Generator
 12. Photo Gallery
 13. English Dictionary
+14. Anime Pics Generator
+15. Note App
